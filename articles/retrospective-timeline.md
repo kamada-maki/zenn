@@ -100,3 +100,11 @@ https://www.amazon.co.jp/%E3%82%A2%E3%82%B8%E3%83%A3%E3%82%A4%E3%83%AB%E3%81%AA%
 https://tech.smarthr.jp/entry/2020/06/04/150346
 
 https://developers.freee.co.jp/entry/timeline-is-a-good-retrospective-method
+
+---
+
+会社で Musubite というサービスを使い始めました！
+気軽にお話できればと思いますので、もし興味ある方いらっしゃれば
+下記リンク見てみていただければと思います！
+
+https://musubite-job.com/recruitments/m56j8ViNmk2Z?utm_source=zenn
