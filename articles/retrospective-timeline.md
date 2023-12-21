@@ -1,9 +1,9 @@
 ---
 title: "振り返りでタイムライン使ってみたらわりと良かったお話"
 emoji: "💬"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["振り返り", "タイムライン"]
-published: false
+published: true
 ---
 
 ## はじめに
@@ -30,7 +30,7 @@ https://developers.freee.co.jp/entry/timeline-is-a-good-retrospective-method
 ## なぜタイムラインを使ったのか
 
 振り返りの手法は様々ありますが、今回はタイムラインを使ってみました。
-その理由は以下の通りです。
+理由は以下の通りです。
 
 - プロジェクトが比較的長期に渡るものだった
 - 関係者が多かった
@@ -54,9 +54,9 @@ https://developers.freee.co.jp/entry/timeline-is-a-good-retrospective-method
 
 ちょっとギャルギャルしてますね。
 
-もう少し詳細を
+もう少し詳細を追いかけてみます。
 
-まず関与者の感情グラフを書き出します
+まず関係者の感情グラフを書き出します
 
 ![](/images/timeline_02.png)
 
