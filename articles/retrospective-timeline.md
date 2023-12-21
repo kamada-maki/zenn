@@ -46,7 +46,7 @@ https://developers.freee.co.jp/entry/timeline-is-a-good-retrospective-method
 エンジニアはもちろん、デザイナー、セールス、BizDev など関係者が多かったので
 各々の視点を知りたいという意図もあり、関係者ごとに書き出してみました。
 
-### 実際にやってみた
+## 実際にやってみた
 
 今回は Miro を使ってやってみました。
 
