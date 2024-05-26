@@ -1,9 +1,9 @@
 ---
-title: "エンジニアがワイヤー作成時に意識していること"
+title: "エンジニアがワイヤー作成時に考えていること"
 emoji: "🛠️"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ワイヤーフレーム", "UI", "UX"]
-published: false
+published: true
 ---
 
 ## はじめに
