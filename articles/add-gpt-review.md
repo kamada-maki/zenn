@@ -20,3 +20,4 @@ ChatGPT-CodeReviewは、OpenAIのChatGPTを使ったコードレビューサー�
 
 
 ## ChatGPT-CodeReviewを使ってみる
+### ChatGPT-CodeReviewの設定
