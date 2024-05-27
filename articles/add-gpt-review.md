@@ -17,3 +17,6 @@ ChatGPT-CodeReviewは、OpenAIのChatGPTを使ったコードレビューサー�
 - Github App
 - Github Actions
 - Self-hosting
+
+
+## ChatGPT-CodeReviewを使ってみる
