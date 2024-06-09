@@ -7,17 +7,18 @@ published: false
 ---
 
 ## はじめに
-少し前からAIを使ったコードレビューに関するサービスが増えてきているかと思います。
-特に有名なのはCodeRabbitかと思いますが、個人利用の範囲だと使える範囲が限られているかと思います。
-今回はもう少しお手軽にレビューできるよう、ChatGPT-CodeReviewを使ってみました。
 
-## ChatGPT-CodeReviewとは
-ChatGPT-CodeReviewは、OpenAIのChatGPTを使ったコードレビューサービスです。
-以下の3つの利用方法があり、本記事はGithub Actionsを使った方法を紹介します。
+少し前から AI を使ったコードレビューに関するサービスが増えてきているかと思います。
+お手軽にレビューできるよう、ChatGPT-CodeReview を使ってみました。
+https://github.com/anc95/ChatGPT-CodeReview
+
+## ChatGPT-CodeReview とは
+
+ChatGPT-CodeReview は、OpenAI の ChatGPT を使ったコードレビューサービスです。
+以下の 3 つの利用方法があり、本記事は Github Actions を使った方法を紹介します。
+
 - Github App
 - Github Actions
 - Self-hosting
 
-
-## ChatGPT-CodeReviewを使ってみる
-
+## Github Actions でプロンプトを入れて使ってみる
