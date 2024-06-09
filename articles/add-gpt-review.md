@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT-CodeReview×GitHub Actionsで記事のレビューをしてみた"
+title: "ChatGPTとGitHub Actionsを使った記事の自動レビュー"
 emoji: "🐤"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["ChatGPT", "OpenAI", "生成AI", "GitHubActions"]
@@ -102,7 +102,7 @@ https://platform.openai.com/docs/api-reference/audio/createTranscription#audio-c
 ## 実際に使ってみた
 
 実際に本記事をレビューしてもらいました。
-PR を作成すると、acitons が実行されます。
+PR を作成すると、Github Actions が実行されます。
 ![](/images/codereview3.png)
 
 実際のレビュー結果がこちらです。
@@ -112,8 +112,9 @@ PR を作成すると、acitons が実行されます。
 途中で送ったのもあり、少し強め?のレビューがされましたが、
 誤字脱字などはしっかり指摘してくれています。
 
-修正が入った箇所
-誤字あるのと、URL 重複しています。
+#### 修正が入った箇所
+
+誤字あるのと、URL 重複しています。ちゃんと指摘してくれています。
 
 ![](/images/codereview1.png)
 
@@ -124,3 +125,8 @@ PR を作成すると、acitons が実行されます。
 レビュー内容は大きくズレはなさそうですが、もう少しプロンプトで指定できると良さそうです。
 ある意味での不確定性があるレビューが静的解析ツールとは違うなと感じました。
 コードレビューにも取り入れても良さそうだなと思いました。
+
+---
+
+最後に公開のために commit すると、優しめレビューがされました。ありがとうございます。
+![](/images/codereview4.png)
