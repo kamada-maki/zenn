@@ -102,3 +102,7 @@ https://platform.openai.com/docs/api-reference/audio/createTranscription#audio-c
 
 
 ## 実際に使ってみた
+実際に本記事をレビューしてもらいました。
+以下がレビュー結果です。
+
+```
