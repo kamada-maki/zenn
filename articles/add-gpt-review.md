@@ -2,8 +2,8 @@
 title: "ChatGPT-CodeReview×GitHub Actionsで記事のレビューをしてみた"
 emoji: "🐤"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
-published: false
+topics: ["ChatGPT", "OpenAI", "生成AI", "GitHubActions"]
+published: true
 ---
 
 ## はじめに
@@ -119,8 +119,8 @@ PR を作成すると、acitons が実行されます。
 
 ## まとめ
 
-今回は、ChatGPT-CodeReview を使って GitHub Actions で技術記事のレビューを行う方法を紹介しました。
-何度か使ってみましたが、毎回レビュー内容が変わるのが少し人間味?があって面白いです。
-言っていることが大きくズレているというのはあまり感じなかったです。
-レビュー内容が毎回異なるのが、静的解析ツールとの違いかなと思いました。
+今回、ChatGPT-CodeReview を使った GitHub Actions による記事のレビューをしてみました。
+何度か試した結果、レビューの内容は毎回異なり、人間味?があって面白かったです。
+レビュー内容は大きくズレはなさそうですが、もう少しプロンプトで指定できると良さそうです。
+ある意味での不確定性があるレビューが静的解析ツールとは違うなと感じました。
 コードレビューにも取り入れても良さそうだなと思いました。
