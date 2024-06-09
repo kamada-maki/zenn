@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT-CodeReview×GitHub Actionsで記事のレビューをしてみた"
-emoji: "🌟"
+emoji: "🐤"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []
 published: false
@@ -9,10 +9,8 @@ published: false
 ## はじめに
 
 CodeRabbit など AI を使ったコードレビューに関するサービスが増えてきているかと思います。
-せっかく(?)、Zenn の記事をを github で管理しているので、
+せっかく(?)、Zenn の記事を github で管理しているので、
 今回は記事のレビューを ChatGPT-CodeReview を使ってお任せしてみました。
-
-https://github.com/anc95/ChatGPT-CodeReview
 
 ## ChatGPT-CodeReview とは
 
@@ -91,7 +89,8 @@ jobs:
 - `MAX_PATCH_LENGTH` はパッチの最大長
   - レビュー対象となるコードの差分（パッチ）の最大長さを指定し、この長さを超える差分はレビューされない
 
-※temperature と top_pについては、下記ページご参考ください。
+※temperature と top_p については、下記ページご参考ください。
+
 - top_p
 
 https://platform.openai.com/docs/api-reference/chat/create#chat-create-top_p
@@ -100,9 +99,28 @@ https://platform.openai.com/docs/api-reference/chat/create#chat-create-top_p
 
 https://platform.openai.com/docs/api-reference/audio/createTranscription#audio-createtranscription-temperature
 
-
 ## 実際に使ってみた
-実際に本記事をレビューしてもらいました。
-以下がレビュー結果です。
 
-```
+実際に本記事をレビューしてもらいました。
+PR を作成すると、acitons が実行されます。
+![](/images/codereview3.png)
+
+実際のレビュー結果がこちらです。
+
+![](/images/codereview2.png)
+
+途中で送ったのもあり、少し強め?のレビューがされましたが、
+誤字脱字などはしっかり指摘してくれています。
+
+修正が入った箇所
+誤字あるのと、URL 重複しています。
+
+![](/images/codereview1.png)
+
+## まとめ
+
+今回は、ChatGPT-CodeReview を使って GitHub Actions で技術記事のレビューを行う方法を紹介しました。
+何度か使ってみましたが、毎回レビュー内容が変わるのが少し人間味?があって面白いです。
+言っていることが大きくズレているというのはあまり感じなかったです。
+レビュー内容が毎回異なるのが、静的解析ツールとの違いかなと思いました。
+コードレビューにも取り入れても良さそうだなと思いました。
