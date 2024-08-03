@@ -1,5 +1,5 @@
 ---
-title: "Balsamiqで爆速ワイヤーフレーム作成"
+title: "「Balsamiq」で効率的なワイヤーフレーム作成"
 emoji: "🧩"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Balsamiq", "ワイヤーフレーム", "UI/UX", "デザイン"]
